@@ -14,8 +14,8 @@ function App() {
        
         <Outlet />
 {/* put footer here? */}
-      <Footer />
       </main>
+      <Footer />
     </>
   );
 }
