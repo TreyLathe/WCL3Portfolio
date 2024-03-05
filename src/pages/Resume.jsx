@@ -1,65 +1,86 @@
 export default function Resume() {
   return (
-    
-    <div style={{ display: 'flex' }}>
-    <div style={{ flex: 1 }}>
-      <ul>
-        <li><h3>Education</h3></li>
+    <div style={{ display: "flex" }}>
+      <div style={{ flex: 1, padding: "1rem" }}>
         <ul>
           <li>
-            <a href="#">BS Molecular Biology, Brigham Young University</a>
+            <h3>Education</h3>
           </li>
-          <li>
-            <a href="#">MS Molecular Biology, University of Rochester</a>
-          </li>
-          <li>
-            <a href="#">PhD Molecular Biology, University of Rochester</a>
-          </li>
-          <li>
-            <a href="#">Full Stack Development, UC Berkeley Extension</a>
-          </li>
-        </ul>
-      </ul>
-        <ul>
-          <li><h3>Work Experience</h3></li>
           <ul>
+            <li>
+              BS Molecular Biology, Brigham Young University
+            </li>
+            <li>
+              MS Molecular Biology, University of Rochester
+            </li>
+            <li>
+              PhD Molecular Biology, University of Rochester
+            </li>
+            <li>
+              Full Stack Development, UC Berkeley Extension
+            </li>
+          </ul>
+        </ul>
+        <ul>
           <li>
-              <a href="#">Freelance consultant, Full Stack Development</a>
+            <h3>Work Experience</h3>
+          </li>
+          <ul>
+            <li>
+             Freelance consultant, Full Stack Development
             </li>
             <li>
-              <a href="#">National Science Foundation/Science Expert</a>
+              Maker Education Initiative, 501(c)(3)/Executive Director
             </li>
             <li>
-              <a href="#">OpenHelix, LLC/Chief Science Officer</a>
+              National Science Foundation/Science Expert
             </li>
             <li>
-              <a href="#">European Molecular Biology Laboratory/Research Scientist</a>
+              OpenHelix, LLC/Chief Science Officer
             </li>
-            
+            <li>
+                European Molecular Biology Laboratory/Research Scientist
+            </li>
+          </ul>
         </ul>
-      </ul>
-    </div>
+      </div>
 
-    <div style={{ flex: 1 }}>
-      <ul>
-        <li><h3>Fullstack Skills</h3></li>
+      <div style={{ flex: 1, padding: "1rem" }}>
         <ul>
-          <li>HTML, CSS, JavaScript</li>
-          <li>React</li>
-          <li>Node.js, Express</li>
-          <li>mySQL, MongoDB</li>
+        <p>
+          <li>
+            <h3>Fullstack Skills</h3>
+          </li>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>React</li>
+              <li>Node.js, Express</li>
+              <li>mySQL, MongoDB</li>
+            </ul>
+
+          </p>
+
+          <p><li>
+            <h3>Trilingual</h3>
+          </li>
+              <ul>
+                <li>English, Native</li>
+                <li>Korean, CEFR C1/2 </li>
+                <li>German, CEFR B1/2 </li>
+              </ul>
+
+              </p>
+
+          <li>
+            <h3>General Skills</h3>
+              <ul>
+                <li>Organizational Management</li>
+                <li>Entrepeurship</li>
+                <li>Grant Writing/Management</li>
+              </ul>
+          </li>
         </ul>
-        <li><h3>Trilingual</h3></li>
-        <ul>
-          <li>English</li>
-          <li>Korean</li>
-          <li>German</li>
-        </ul>
-        <li><h3>Other Skills</h3></li>
-      </ul>
+      </div>
     </div>
-  </div>
-    
   );
 }
-

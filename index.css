@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -12,23 +12,23 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
+} */
 
 a {
   font-weight: 500;
-  color: #DEF2C8;
+  color: #FCDEBE;
   text-decoration: inherit;
 }
 a:hover {
-  color: #DEF2C8;
+  color: #928779;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 400vh;
-  color: #D5ACA9;
-  background-color: #053C5E;
+  color: #FCDEBE;
+  background-color: #3A445D;
 }
 
 h1 {
