@@ -43,6 +43,13 @@ export default function Resume() {
             </li>
           </ul>
         </ul>
+        <ul>
+            <li><h3>Resume PDF</h3></li>
+            <ul><li>
+            <a href="/path/to/your/pdf/document.pdf" download>Download PDF of full resume</a>
+            </li>
+            </ul>
+          </ul>
       </div>
 
       <div style={{ flex: 1, padding: "1rem" }}>
