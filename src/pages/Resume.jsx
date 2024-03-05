@@ -75,7 +75,7 @@ export default function Resume() {
             <h3>General Skills</h3>
               <ul>
                 <li>Organizational Management</li>
-                <li>Entrepeurship</li>
+                <li>Entrepreneurship</li>
                 <li>Grant Writing/Management</li>
               </ul>
           </li>
