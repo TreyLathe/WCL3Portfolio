@@ -67,6 +67,10 @@ export default function Contact() {
               onBlur={handleBlur} 
             />
           </div>
+          <div>
+            <label htmlFor="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+          </div>
           <button type="submit">Submit</button>
         </form>
       </div>
