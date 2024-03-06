@@ -1,3 +1,5 @@
+import Lathe_Resume2024 from "../assets/docs/Lathe_Resume2024.pdf";
+
 export default function Resume() {
   return (
     <div style={{ display: "flex" }}>
@@ -46,7 +48,7 @@ export default function Resume() {
         <ul>
             <li><h3>Resume PDF</h3></li>
             <ul><li>
-            <a href="/path/to/your/pdf/document.pdf" download>Download PDF of full resume</a>
+            <a href={Lathe_Resume2024} download>Download PDF of full resume</a>
             </li>
             </ul>
           </ul>

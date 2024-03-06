@@ -40,33 +40,36 @@ export default function Contact() {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-            onBlur={handleBlur} 
-          />
-        </div>
-        <div>
-          <label htmlFor="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-            onBlur={handleBlur} 
-          />
-        </div>
-        <button type="submit">Submit</button>
-      </form>
+      <div style={{ marginTop: '50px' }}>
+        <p><h3>Please contact me for more information!</h3></p>
+        <form onSubmit={handleSubmit}>
+          <div style={{ marginBottom: '15px '}}>
+            <label htmlFor="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              required
+              onBlur={handleBlur} 
+            />
+          </div>
+          <div style={{ marginBottom: '40px '}}>
+            <label htmlFor="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+              onBlur={handleBlur} 
+            />
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
     </div>
   );
 }
