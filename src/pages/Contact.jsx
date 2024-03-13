@@ -40,40 +40,42 @@ export default function Contact() {
 
   return (
     <div>
-      <div style={{ marginTop: '50px' }}>
-        <p><h3>Please contact me for more information!</h3></p>
-        <form onSubmit={handleSubmit}>
-          <div style={{ marginBottom: '15px '}}>
-            <label htmlFor="name">Name:</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              required
-              onBlur={handleBlur} 
-            />
-          </div>
-          <div style={{ marginBottom: '40px '}}>
-            <label htmlFor="email">Email:</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              required
-              onBlur={handleBlur} 
-            />
-          </div>
-          <div>
-            <label htmlFor="message">Message:</label>
-            <textarea id="message" name="message" rows="4" cols="50"></textarea>
-          </div>
-          <button type="submit">Submit</button>
-        </form>
-      </div>
-    </div>
+  <div style={{ marginTop: '50px' }}>
+    <p><h3>Please contact me for more information!</h3></p>
+    <form onSubmit={handleSubmit}>
+      <table style={{ marginBottom: '40px' }}>
+        <tr>
+          <td><label htmlFor="name">Name:</label></td>
+          <td><input
+                type="text"
+                id="name"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                required
+                onBlur={handleBlur} 
+              /></td>
+        </tr>
+        <tr>
+          <td><label htmlFor="email">Email:</label></td>
+          <td><input
+                type="email"
+                id="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+                onBlur={handleBlur} 
+              /></td>
+        </tr>
+        <tr>
+          <td><label htmlFor="message">Message:</label></td>
+          <td><textarea id="message" name="message" rows="4" cols="50"></textarea></td>
+        </tr>
+      </table>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
   );
 }
