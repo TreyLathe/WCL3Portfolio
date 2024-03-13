@@ -1,7 +1,6 @@
 import CourseLogo from "../assets/images/CourseLogo.jpg";
 import BeerPoetry from "../assets/images/BeerPoetry.jpg";
 import WeatherDashboard from "../assets/images/WeatherDashboard.jpg";
-import JSQuiz from "../assets/images/JSQuiz.jpg";
 import LogoMaker from "../assets/images/LogoMaker.jpg";
 import EmployeeTracker from "../assets/images/EmployeeTracker.jpg";
 import exambuilder from "../assets/images/exambuilder.jpg";

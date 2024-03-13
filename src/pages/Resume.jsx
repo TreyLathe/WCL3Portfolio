@@ -17,11 +17,11 @@ export default function Resume() {
   };
 
   return (
-    <div style={{ display: "flex" }}>
-      <div style={{ flex: 1, padding: "1rem" }}>
+    <div style={{ display: "flex", justifyContent: "space-evenly", marginTop: "30px"}}>
+      <div >
         <ul>
           <li>
-            <h3 onClick={() => toggleSection('education')}>Education</h3>
+            <h3 onClick={() => toggleSection('education')} style={{ cursor: "pointer", textDecoration: "underline" }}>Education</h3>
             {isSectionOpen('education') && (
               <ul>
                 <li>
@@ -42,7 +42,7 @@ export default function Resume() {
         </ul>
         <ul>
           <li>
-            <h3 onClick={() => toggleSection('workExperience')}>Work Experience</h3>
+            <h3 onClick={() => toggleSection('workExperience')} style={{ cursor: "pointer", textDecoration: "underline" }}>Work Experience</h3>
             {isSectionOpen('workExperience') && (
               <ul>
                 <li>
@@ -66,7 +66,7 @@ export default function Resume() {
         </ul>
         <ul>
           <li>
-            <h3 onClick={() => toggleSection('resumePdf')}>Resume PDF</h3>
+            <h3 onClick={() => toggleSection('resumePdf')} style={{ cursor: "pointer", textDecoration: "underline" }}>Resume PDF</h3>
             {isSectionOpen('resumePdf') && (
               <ul>
                 <li>
@@ -78,10 +78,10 @@ export default function Resume() {
         </ul>
       </div>
 
-      <div style={{ flex: 1, padding: "1rem" }}>
+      <div >
         <ul>
           <li>
-            <h3 onClick={() => toggleSection('fullstackSkills')}>Fullstack Skills</h3>
+            <h3 onClick={() => toggleSection('fullstackSkills')} style={{ cursor: "pointer", textDecoration: "underline" }}>Fullstack Skills</h3>
             {isSectionOpen('fullstackSkills') && (
               <ul>
                 <li>HTML, CSS, JavaScript</li>
@@ -92,7 +92,7 @@ export default function Resume() {
             )}
           </li>
           <li>
-            <h3 onClick={() => toggleSection('trilingual')}>Trilingual</h3>
+            <h3 onClick={() => toggleSection('trilingual')} style={{ cursor: "pointer", textDecoration: "underline" }}>Trilingual</h3>
             {isSectionOpen('trilingual') && (
               <ul>
                 <li>English, Native</li>
@@ -102,7 +102,7 @@ export default function Resume() {
             )}
           </li>
           <li>
-            <h3 onClick={() => toggleSection('generalSkills')}>General Skills</h3>
+            <h3 onClick={() => toggleSection('generalSkills')} style={{ cursor: "pointer", textDecoration: "underline" }} >General Skills</h3>
             {isSectionOpen('generalSkills') && (
               <ul>
                 <li>Organizational Management</li>
