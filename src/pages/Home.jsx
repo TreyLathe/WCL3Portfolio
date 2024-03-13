@@ -17,8 +17,7 @@ export default function Home() {
       </div>
       <div style={{ marginLeft: '20px' }}>
         <p style={{ fontSize: '24px', float: 'right', marginLeft: '20px' }}>
-          Welcome to my portfolio! I am a full stack web developer with a passion for creating and learning. I have experience with HTML, CSS, JavaScript, Node.js, Express.js, MySQL, MongoDB, React, and more. I am always looking for new opportunities to learn and grow as a developer. I am currently seeking work as a web developer. Please feel free to reach out to me!
-        </p>
+          After 30 years of molecular biology research, teaching and national education policy experience, I am taking that experience into full stack web development. So many ideas I would love to bring to fruition. Adding my new knowledge and experience of CSS, HTML, Javascript, React, mySQL, dongoDB and more to hopefully do some great stuff.          </p>
       </div>
     </div>
   );
