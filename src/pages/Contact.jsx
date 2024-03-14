@@ -6,22 +6,15 @@ export default function Contact() {
     email: '',
   });
 
+  const [ name, setName ] = useState('');
+  const [subject, setSubject] = useState('');
+  const [body, setBody] = useState('');
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
       [name]: value,
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Here you can add code to handle form submission, like sending data to a server
-    console.log(formData);
-    // Reset form fields after submission
-    setFormData({
-      name: '',
-      email: '',
     });
   };
 
@@ -36,6 +29,13 @@ export default function Contact() {
         alert('Please enter a valid email address');
       }
     }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Prevent default form submission
+    const emailAddress = 'warrenlathe@me.com';
+    const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailtoLink;
   };
 
   return (
@@ -54,8 +54,23 @@ export default function Contact() {
                 onChange={handleChange}
                 required
                 onBlur={handleBlur} 
+                placeholder='Your Name'
+                style={{ marginLeft: '10px' }} 
               /></td>
         </tr>
+        <tr>
+          <td><label htmlFor="subject">Subject:</label></td>
+          <td><input
+            type="text"
+            id="subject"
+            value={subject}
+            onChange={(e) => setSubject(e.target.value)}
+            // style={{ width: '160%', padding: '10px', marginTop: '10px', borderRadius: '5px', border: '1px solid #ccc' }}
+            placeholder='Subject'
+            style={{ marginLeft: '10px' }} 
+          /></td>
+        </tr>
+        
         <tr>
           <td><label htmlFor="email">Email:</label></td>
           <td><input
@@ -66,11 +81,23 @@ export default function Contact() {
                 onChange={handleChange}
                 required
                 onBlur={handleBlur} 
+                placeholder='Your Email Address'
+                style={{ marginLeft: '10px' }} 
               /></td>
         </tr>
         <tr>
           <td><label htmlFor="message">Message:</label></td>
-          <td><textarea id="message" name="message" rows="4" cols="50"></textarea></td>
+          <td><textarea 
+            id="message" 
+            name="message" 
+            placeholder='Your Message'
+            style={{ marginLeft: '10px' }} 
+            rows="4" 
+            cols="50">
+            </textarea>
+        
+            </td>
+            
         </tr>
       </table>
       <button type="submit">Submit</button>
