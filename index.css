@@ -13,7 +13,8 @@ body {
   min-width: 320px;
   min-height: 400vh;
   color: #FCDEBE;
-  background-color: #3A445D;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(225deg, #8BC6EC 0%, #08080c 60%);
 }
 
 h1 {

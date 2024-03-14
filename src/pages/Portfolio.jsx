@@ -16,13 +16,6 @@ export default function Portfolio() {
         <a href="https://github.com/JessicaDubina/exam-builder" className="btn btn-primary" style={{ backgroundColor: "#928779"}}>GitHub Repository</a>
       </div>
       
-      <div className="card" style={{ width: "18rem",color: "#FCDEBE", marginBottom: "2rem", backgroundColor: "#5E5768"}}>
-        <img className="card-img-top" src= {CourseLogo} alt="course logo" style={{ height: "160px" }}></img>
-        <h5 className="card-title">Course Management</h5>
-        <p className="card-text">A simple course management tool, to manage students, create groups for projects/labs and several features in development.</p>
-        <a href="https://coursemanagement-9c13757a824b.herokuapp.com/" className="btn btn-primary" style={{ backgroundColor: "#928779"}}>Deployed</a>
-        <a href="https://github.com/TreyLathe/teams_problem_solution/" className="btn btn-primary" style={{ backgroundColor: "#928779"}}>GitHub Repository</a>
-      </div>
 
       <div className="card" style={{ width: "18rem", color: "#FCDEBE", marginBottom: "2rem", backgroundColor: "#5E5768" }}>
         <img className="card-img-top" src= {BeerPoetry} alt="Beer is Poetic" style={{ height: "160px" }}></img>
@@ -38,6 +31,14 @@ export default function Portfolio() {
         <p className="card-text">A quick and simple weather forecast dashboard to find today's weather and the next 5 day forecast, with ability to save and delete searches</p>
         <a href="https://treylathe.github.io/weatherDashboardMod6/" className="btn btn-primary" style={{ backgroundColor: "#928779"}}>Deployed</a>
         <a href="https://github.com/TreyLathe/weatherDashboardMod6" className="btn btn-primary" style={{ backgroundColor: "#928779"}}>GitHub Repository</a>
+      </div>
+
+      <div className="card" style={{ width: "18rem",color: "#FCDEBE", marginBottom: "2rem", backgroundColor: "#5E5768"}}>
+        <img className="card-img-top" src= {CourseLogo} alt="course logo" style={{ height: "160px" }}></img>
+        <h5 className="card-title">Course Management</h5>
+        <p className="card-text">A simple course management tool, to manage students, create groups for projects/labs and several features in development.</p>
+        <a href="https://coursemanagement-9c13757a824b.herokuapp.com/" className="btn btn-primary" style={{ backgroundColor: "#928779"}}>Deployed</a>
+        <a href="https://github.com/TreyLathe/teams_problem_solution/" className="btn btn-primary" style={{ backgroundColor: "#928779"}}>GitHub Repository</a>
       </div>
 
       <div className="card" style={{ width: "18rem",color: "#FCDEBE", marginBottom: "2rem", backgroundColor: "#5E5768" }}>
