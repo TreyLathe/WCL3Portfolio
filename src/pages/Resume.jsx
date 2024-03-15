@@ -25,16 +25,16 @@ export default function Resume() {
             {isSectionOpen('education') && (
               <ul>
                 <li>
-                  BS Molecular Biology, Brigham Young University
+                  <strong>BS Molecular Biology </strong><br />Brigham Young University
                 </li>
                 <li>
-                  MS Molecular Biology, University of Rochester
+                <strong>MS Molecular Biology </strong><br />University of Rochester
                 </li>
                 <li>
-                  PhD Molecular Biology, University of Rochester
+                <strong>PhD Molecular Biology </strong><br /> University of Rochester
                 </li>
                 <li>
-                  Full Stack Development, UC Berkeley Extension
+                <strong>Full Stack Development</strong><br /> UC Berkeley Extension
                 </li>
               </ul>
             )}
@@ -46,19 +46,19 @@ export default function Resume() {
             {isSectionOpen('workExperience') && (
               <ul>
                 <li>
-                  Freelance consultant, Full Stack Development
+                  <strong>Freelance consultant</strong><br />Full Stack Development <br /> Project management <br /> Education
                 </li>
                 <li>
-                  Maker Education Initiative, 501(c)(3)/Executive Director
+                <strong>Executive Director</strong> <br />Maker Ed. Initiative, 501(c)(3)
                 </li>
                 <li>
-                  National Science Foundation/Science Expert
+                <strong>S&T Fellow, Science Expert</strong> <br />National Science Foundation
                 </li>
                 <li>
-                  OpenHelix, LLC/Chief Science Officer
+                <strong>Chief Science Officer</strong><br />OpenHelix, LLC
                 </li>
                 <li>
-                    European Molecular Biology Laboratory/Research Scientist
+                <strong>Research Scientist</strong><br />European Mol. Bio. Laboratory
                 </li>
               </ul>
             )}
@@ -66,11 +66,11 @@ export default function Resume() {
         </ul>
         <ul>
           <li>
-            <h3 onClick={() => toggleSection('resumePdf')} style={{ cursor: "pointer", textDecoration: "underline" }}>Resume PDF</h3>
+            <h3 onClick={() => toggleSection('resumePdf')} style={{ cursor: "pointer", textDecoration: "underline" }}>Download Resume PDF</h3>
             {isSectionOpen('resumePdf') && (
               <ul>
                 <li>
-                  <a href={Lathe_Resume2024} download>Download PDF of full resume</a>
+                  <a href={Lathe_Resume2024} download>PDF of full resume</a>
                 </li>
               </ul>
             )}
@@ -85,9 +85,9 @@ export default function Resume() {
             {isSectionOpen('fullstackSkills') && (
               <ul>
                 <li>HTML, CSS, JavaScript</li>
-                <li>React</li>
-                <li>Node.js, Express</li>
-                <li>mySQL, MongoDB</li>
+                <li>mySQL, Sequalize </li>
+                <li>MongoDB, Express, <br />React, Node.js (MERN) </li>
+                
               </ul>
             )}
           </li>
@@ -105,7 +105,7 @@ export default function Resume() {
             <h3 onClick={() => toggleSection('generalSkills')} style={{ cursor: "pointer", textDecoration: "underline" }} >General Skills</h3>
             {isSectionOpen('generalSkills') && (
               <ul>
-                <li>Organizational Management</li>
+                <li>Organization Management</li>
                 <li>Entrepreneurship</li>
                 <li>Grant Writing/Management</li>
               </ul>

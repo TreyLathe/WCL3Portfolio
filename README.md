@@ -25,9 +25,9 @@ Main technology used
 
 ## RELEVANT LINKS:
 
-- Repository: https://github.com/TreyLathe/WCL3Portfolio
+- [Repository](https://github.com/TreyLathe/WCL3Portfolio) 
 
-- Deployed Site:
+- [Deployed Site](https://wclathe3.netlify.app)
 
 ## SCREENSHOTS &&/|| SCREENCASTS:
 
