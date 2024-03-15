@@ -100,7 +100,7 @@ export default function Contact() {
             
         </tr>
       </table>
-      <button type="submit">Submit</button>
+      <button type="submit" style={{ color: "white"}}>Submit</button>
     </form>
   </div>
 </div>
