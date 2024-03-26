@@ -1,5 +1,6 @@
 import githublogo from "../assets/images/githublogo.png";
-import linkedinlogo from "../assets/images/linkedinlogo.png";
+import linkedinlogo from "../assets/images/linkedinlogo.jpeg";
+import codepenlogo from "../assets/images/logo-white.png"
 
 export default function Footer() {
   return (
@@ -11,6 +12,9 @@ export default function Footer() {
       </div>
       <div style={{ padding: "1rem" }}>
         <a href="https://linkedin.com/in/wclathe" target="_blank"><img src={linkedinlogo} style={{ width: '40px', height: '40px' }}></img></a>
+      </div>
+      <div style={{ padding: "1rem" }}>
+        <a href="https://codepen.io/TreyLathe" target="_blank"><img src={codepenlogo} style={{ width: '40px', height: '40px' }}></img></a>
       </div>
     </div>
     </div>
